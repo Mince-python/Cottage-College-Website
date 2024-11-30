@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.3;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+nav {
+  background: linear-gradient(to right, white, #a8a8a8, white);
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 200px;
+ border-bottom-color: #a8a8a8;
+  border-bottom-style: solid;
+  
+ 
+}
+nav p {
+  margin-right: 700px;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.logo{
+   margin-left: 100px;
+   height: 15px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: 1s;
+  font-size: 0.5rem;
+  cursor: pointer;
+}
+
+.nav-links li a:hover {
+  background: aliceblue;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+#e-btn {
+  background-color: aliceblue;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  border-radius: 15px;
+  color: blue;
+  border-style: none;
+  font-size: 0.5rem;
+  cursor: pointer;
+  width: 100px;
+}
+
+#e-btn:hover {
+  transition: 1s;
+  background-color: #a8a8a8;
+}
+hr {
+  background: #a8a8a8;
+  
+}
+
+.header {
+  background-color: whitesmoke;
+  height: 100vh;
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+
+  width: 100%;
+}
+.enroll {
+  background-color: whitesmoke;
+  margin-top: 0;
+  padding: 10px;
+}
+.Enroll-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  color: navy;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.images {
+  padding: 10px;
+}
+
+.content button {
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-top: 20px;
+}
+
+.content button:hover {
+  background-color: #a8a8a8;
+  color: navy;
+  transition: 1s;
+}
+ .Gallery{
+    background-color: #072146;
+    display: grid;
+    padding: 100px;
+ }
+.Gallery h2{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.g-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+    align-items: center;
+    
+}
+ .gallery1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 150px;
+  width: 250px;
+    color: #FFFFFF;
+   border-radius: 5px;
+   border: #a8a8a8;
+   border-style: solid;
+    font-size: 0.5rem;
+    padding: 20px;
+    margin: 10px;
+   
+
+    
+    
+ }
+
+ .gallery1:hover{
+    transition: 1s;
+    background-color: black;
+    cursor: pointer;
+    color: navy;
+ }
+.gallery1 img{
+    margin-top:  30px;
+    height: 20px;
+  margin-left: 15px;
+}
+ .gallery1 h4{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 15px;
+ }
+
+ .gallery1 p{
+    font-size: 0.5rem;
+    margin-top: 5px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    
+ }
+ .About{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 300px;
+    padding: 100px;
+ }
+
+ .about h3{
+    text-align:left;
+    font-size: 1rem;
+    color: #5A91E0;
+ }
+
+ .about h1{
+    text-align:left;
+    font-size: 2rem;
+    color: #0A2457;
+    margin-top: 10px;
+ }
+
+ .about p{
+    margin-top: 10px;
+    color: #5F5F5F;
+ }
+ .about-2{
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+ }
+ .about-content{
+    background: #FFFFFF;
+    border-radius: 5px;
+  
+    padding: 10px;
+ }
+ .rec{
+    height: 5px;
+    width: 250px;
+    border-radius: 100px;
+   background-color: #0A2457;
+ }
+
+ .about-content p{
+    font-weight: bold;
+    color: #0A306F;
+    font-size: 1rem;
+    font-family: sans-serif;
+ }
+ .about-content button{
+    background-color: azure;
+    color: #264978;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+
+ }
+
+
+ .about-content button:hover{
+    background-color: #a8a8a8;
+    cursor: pointer;
+
+ }
+
+
+ .about-2 img{
+    margin-top: 5px;
+    height: 200px;
+ }
+
+ footer{
+   
+    color: #282828;
+   margin-left: 200px;
+   font-size: 1rem;
+ }
+ footer hr{
+    width: 80%;
+  
+ }
+
+ footer img{
+   
+  
+    margin-right: 100px;
+ }
